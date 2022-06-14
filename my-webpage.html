@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(https://i.stack.imgur.com/1inrW.png);
+            color: azure;
+        }
+
+        .city {
+            color: goldenrod;
+        }
+
+        .lang {
+            color: goldenrod;
+        }
+
+        .sub {
+            color: goldenrod;
+        }
+
+        .header {
+            text-align: center;
+            vertical-align: middle;
+            font-family: Dancing Script, cursive;
+            font-size: x-large;
+            color: goldenrod;
+        }
+
+        .header img {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 5em;
+        }
+
+        .header h1 {
+            display: inline-block;
+            vertical-align: middle;
+            margin-inline: 5em;
+        }
+
+        .place-contents {
+            text-align: left;
+            vertical-align: middle;
+            margin: 8em;
+            font-family: cursive;
+        }
+
+        .place {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .place img {
+            margin-right: 2em;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid rgb(255, 255, 255);
+            width: 50%;
+            margin-top: 1em;
+        }
+
+        .subjects {
+            border-radius: 1em;
+            background-color: transparent;
+            align-items: center;
+        }
+
+        .maths {
+            margin-right: 5em;
+            font-family: cursive;
+        }
+
+        .algo {
+            margin-right: 5em;
+            font-family: cursive;
+        }
+
+        .soft {
+            margin-right: 5em;
+            font-family: cursive;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        @media(min-width:768px) {
+            .header {
+                display: flex;
+            }
+
+            .place {
+                display: flex;
+            }
+
+            .subjects {
+                display: flex;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
+</head>
+
+<body>
+    <div class="header-contents">
+        <div class="header">
+            <h1>Moriti Ramolefo</h1>
+            <img src="moriti-ramolefo.jpeg" width="200" height="200">
+        </div>
+    </div>
+    <div class="place-contents">
+        <h2 class="city">London City</h2>
+        <div class="place">
+            <img src="london-city.jpg" width="250">
+            <p>
+                London, the capital of England and the United Kingdom, is a 21st-century city with
+                <br>history stretching back to Roman times. Westminster Abbey, site of British monarch
+                <br>coronations. At its centre stand the imposing Houses of Parliament, the iconic
+                ‘Big Ben’ <br>clock tower and Across the Thames River, the London Eye observation
+                wheel provides <br>panoramic views of the South Bank cultural complex, and the entire city.
+            </p>
+        </div>
+        <div class="language">
+            <h2 class="lang">French</h2>
+            <div>
+                Is a Romance language of the Indo-European family. It descended from the Vulgar Latin of the <br>Roman
+                Empire, as did all Romance languages. French evolved from Gallo-Romance, the Latin <br>spoken in Gaul,
+                and
+                more specifically in Northern Gaul. Its closest relatives are the other langues <br>d'oïl—languages
+                historically spoken in northern France and in southern Belgium, which French <br>(Francien) largely
+                supplanted.
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th>English</th>
+                        <th>French</th>
+                    </tr>
+                    <tr>
+                        <td>Hello </td>
+                        <td>Bonjour </td>
+
+                    </tr>
+                    <tr>
+                        <td>Hello Miss </td>
+                        <td>Ashante Mademoiselle </td>
+
+                    </tr>
+                    <tr>
+                        <td>Excuse me </td>
+                        <td>Pardon </td>
+                    </tr>
+                    <tr>
+                        <td>Thank You </td>
+                        <td>Merci </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="Favourite">
+            <h2 class="sub">Favourite Subjects</h2>
+            I have obtained a qualification in Electrical Engineering Technology and the subjects/modules that <br>I
+            enjoyed the most during my course time are:
+            <div class="subjects">
+                <div class="maths">
+                    <h3>Mathematics</h3>
+                    <img src="engineering-mathematics.jpg" width="200">
+                </div>
+                <div class="algo">
+                    <h3>Algorithms and Programming</h3>
+                    <img src="algorithm-in-programming.jpg" width="350">
+                </div>
+                <div class="soft">
+                    <h3>Software Engineering</h3>
+                    <img src="software-engineering.jpg" width="200">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
