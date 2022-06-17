@@ -14,14 +14,17 @@
 
         .city {
             color: goldenrod;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         .lang {
             color: goldenrod;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
-        .sub {
+        .subs {
             color: goldenrod;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
         .header {
@@ -74,19 +77,51 @@
             align-items: center;
         }
 
-        .maths {
+        .maths-header {
             margin-right: 5em;
             font-family: cursive;
         }
 
-        .algo {
+        .maths {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .maths p {
+            margin-right: 1em;
+        }
+
+        .prog-header {
+            margin-right: 5em;
+            font-family: cursive;
+        }
+
+        .prog {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .prog p {
+            margin-right: 1em;
+        }
+
+        .prog img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .soft-header {
             margin-right: 5em;
             font-family: cursive;
         }
 
         .soft {
-            margin-right: 5em;
-            font-family: cursive;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .soft p {
+            margin-right: 1em;
         }
 
         img {
@@ -99,6 +134,18 @@
             }
 
             .place {
+                display: flex;
+            }
+
+            .maths {
+                display: flex;
+            }
+
+            .prog {
+                display: flex;
+            }
+
+            .soft {
                 display: flex;
             }
 
@@ -134,16 +181,15 @@
             <div>
                 Is a Romance language of the Indo-European family. It descended from the Vulgar Latin of the <br>Roman
                 Empire, as did all Romance languages. French evolved from Gallo-Romance, the Latin <br>spoken in Gaul,
-                and
-                more specifically in Northern Gaul. Its closest relatives are the other langues <br>d'oïl—languages
+                and more specifically in Northern Gaul. Its closest relatives are the other langues <br>d'oïl—languages
                 historically spoken in northern France and in southern Belgium, which French <br>(Francien) largely
                 supplanted.
             </div>
             <div>
                 <table>
                     <tr>
-                        <th>English</th>
-                        <th>French</th>
+                        <th>ENGLISH</th>
+                        <th>FRENCH</th>
                     </tr>
                     <tr>
                         <td>Hello </td>
@@ -167,21 +213,36 @@
             </div>
         </div>
         <div class="Favourite">
-            <h2 class="sub">Favourite Subjects</h2>
+            <h2 class="subs">Favourite Subjects</h2>
             I have obtained a qualification in Electrical Engineering Technology and the subjects/modules that <br>I
             enjoyed the most during my course time are:
             <div class="subjects">
-                <div class="maths">
+                <div class="maths-header">
                     <h3>Mathematics</h3>
-                    <img src="engineering-mathematics.jpg" width="200">
+                    <div class="maths">
+                        <p>
+                            Mathematics is the science that deals with the logic of shape, quantity and arrangement.
+                        </p>
+                        <img src="engineering-mathematics.jpg" width="200">
+                    </div>
                 </div>
-                <div class="algo">
-                    <h3>Algorithms and Programming</h3>
-                    <img src="algorithm-in-programming.jpg" width="350">
+                <div class="prog-header">
+                    <h3>Programming & Coding</h3>
+                    <div class="prog">
+                        <p>
+                            Programming is the process of designing & building a computation by executing a program.
+                        </p>
+                        <img src="programming-coding.jpg" width="200">
+                    </div>
                 </div>
-                <div class="soft">
+                <div class="soft-header">
                     <h3>Software Engineering</h3>
-                    <img src="software-engineering.jpg" width="200">
+                    <div class="soft">
+                        <p>
+                            Software engineering is a systematic engineering approach to software development.
+                        </p>
+                        <img src="software-engineering.jpg" width="200">
+                    </div>
                 </div>
             </div>
         </div>
