@@ -110,6 +110,7 @@
         .prog img {
             display: inline-block;
             vertical-align: middle;
+            margin-right: 1em;
         }
 
         .soft-header {
@@ -140,20 +141,11 @@
                 display: flex;
             }
 
-            .maths {
-                display: flex;
-            }
-
-            .prog {
-                display: flex;
-            }
-
-            .soft {
-                display: flex;
-            }
-
             .subjects {
                 display: flex;
+            }
+            .prog {
+                flex-direction: row-reverse;
             }
         }
     </style>
@@ -232,10 +224,10 @@
                 <div class="prog-header">
                     <h3>Programming & Coding</h3>
                     <div class="prog">
+                        <img src="programming-coding.jpg" width="200">
                         <p>
                             Programming is the process of designing & building a computation by executing a program.
-                        </p>
-                        <img src="programming-coding.jpg" width="200">
+                        </p>    
                     </div>
                 </div>
                 <div class="soft-header">
